@@ -1,0 +1,106 @@
+.body{
+    background-image: url(img-2/backround-baje\ web.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    background-color: rgb(237, 136, 5);
+}
+
+
+.teter-h2{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 75px;
+    color: white;
+   
+   
+}
+.teter-h3{
+    color: black;
+    font-family: "Roboto Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 60px;
+  
+}
+.navbar ul li{
+    transition: 0,9;
+
+}
+.navbar ul li:hover{
+    background-color: rgb(86, 55, 2);
+    color: rgb(232, 226, 220);
+}
+
+.slide{
+    margin: 60px 0;
+    white-space: nowrap; /*kayATSATRO fastar wahd*/
+    overflow: hidden;
+}
+
+.item-slide{
+    width: 50px;
+    display:flex;
+    animation: 35s slide infinite linear;
+    animation-name: slide;
+    animation-duration: 7s;
+}
+
+@keyframes slide{
+    0%{transform:scale(0.5);}
+    100%{transform:scale(1.5);}
+  
+}
+.div-3{
+    background-image: url(imag/Premium\ Photo\ _\ Empty\ wooden\ table\ in\ front\ of\ abstract\ blurred\ festive\ light\ background\ with\ light\ spots.jpeg);
+    background-repeat: no-repeat;
+}
+.div-1{
+    background-image: url(imag/backround-00.jpeg);
+    background-repeat: no-repeat;
+}
+.p-01{
+    font-family: "Sacramento", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.h1-01{
+    background-color: black;
+    font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.div-001 h3{
+    font-family: "Edu AU VIC WA NT Arrows", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 45px;
+    color: white;
+
+
+}
+.div-001 h4{
+    font-family: "Edu AU VIC WA NT Arrows", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 35px;
+    color: rgb(10, 9, 9);
+}
+.div-001 p{
+    
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+}
+.navbar{
+background-color: black;
+}
